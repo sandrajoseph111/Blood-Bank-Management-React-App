@@ -28,9 +28,7 @@ const NavigationBar = () => {
 
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <a className="nav-link active mx-2" href="#">
-                Home
-              </a>
+              
 
               <a className="nav-link mx-2" href="#">
                 Add Donor
@@ -40,12 +38,7 @@ const NavigationBar = () => {
                 View Donor
               </a>
 
-              <a
-                className="btn btn-light text-danger fw-bold ms-3 px-3"
-                href="#"
-              >
-                Login
-              </a>
+              
             </div>
           </div>
         </div>
