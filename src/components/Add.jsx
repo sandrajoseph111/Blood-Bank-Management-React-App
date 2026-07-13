@@ -79,7 +79,7 @@ const Add = () => {
                             <label htmlFor="" className="form-label">Gender</label><br></br>
                             <select name="" id="" className="form-control" name="gender" value={input.gender} onChange={inputHandeler}>
                                 <option value="Male">Male</option>
-                                <option value="Male">Female</option>
+                                <option value="Female">Female</option>
                             </select>
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">

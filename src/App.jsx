@@ -7,6 +7,7 @@ import NavigationBar from './components/NavigationBar'
 import Add from './components/Add'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import View from './components/View'
+import Home from './components/home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,9 +18,9 @@ function App() {
      
      <Routes>
 
-
+      <Route path='/' element={<Home/>}/>
       
-      <Route path='/' element={<Add/>}/>
+      <Route path='/add' element={<Add/>}/>
       <Route path='/vi' element={<View/>}/>
      </Routes>
      </BrowserRouter>
