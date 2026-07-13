@@ -30,11 +30,11 @@ const NavigationBar = () => {
             <div className="navbar-nav ms-auto">
               
 
-              <a className="nav-link mx-2" href="#">
+              <a className="nav-link mx-2" href="/">
                 Add Donor
               </a>
 
-              <a className="nav-link mx-2" href="#">
+              <a className="nav-link mx-2" href="/vi">
                 View Donor
               </a>
 
